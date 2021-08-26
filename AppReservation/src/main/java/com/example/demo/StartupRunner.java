@@ -35,6 +35,7 @@ public class StartupRunner implements CommandLineRunner {
 	@Transactional
 	public void run(String... args) throws Exception {
 
+		System.out.println("hi"); 
 		Person per = new Person();
 		per.setFirstName("user");
 		per.setLastName("user");
